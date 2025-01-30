@@ -34,6 +34,24 @@ public class MadLib
 
 		try
 		{
+			Scanner bob = new Scanner(new File(""));
+			
+			
+			{
+				//while (bob.hasNext())
+				//story = bob.next
+
+				if(story.equals("@"))
+				getRandomVerb();
+				if(story.equals("&"))
+				getRandomAdjective();
+				if(story.equals("#"))
+				getRandomNoun();
+
+				
+			
+				
+			}
 			//Read the different parts of the story and concatenate the resulting
 			//story using the symbols to tell you the parts of speech
 
